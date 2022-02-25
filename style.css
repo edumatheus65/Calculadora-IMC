@@ -17,12 +17,43 @@ body {
     display: flex;
     flex-direction: center;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 34%;
+    margin-top: 12%;
+    margin-left: 39%;
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
-    padding: 6em;
-    border-radius: 15px;
+    padding: 2em;
+    border-radius: 10px;
     color: white;
+}
+
+.botao {
+    background-color: slateblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px gray;
+    cursor: pointer;    
+}
+
+.botao:hover {
+    background-color: steelblue;
+}
+
+.first-step {
+    display: none;
+}
+
+.inputUser {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.first-step,
+.second-step {
+    display: none;
 }
 
