@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&display=swap');
 
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} */
 
 body {
     font-family: 'Arimo', sans-serif;
@@ -14,16 +14,15 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    margin-top: 12%;
-    margin-left: 39%;
-    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
-    padding: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
     border-radius: 10px;
-    color: white;
+       
 }
 
 .botao {
@@ -32,7 +31,7 @@ body {
     font-size: 15px;
     border: none;
     padding: 1em;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 1px 1px 6px gray;
     cursor: pointer;    
 }
@@ -41,7 +40,11 @@ body {
     background-color: steelblue;
 }
 
-.first-step {
+.final-step {
+    display: none;
+}
+
+.second-step {
     display: none;
 }
 
@@ -52,8 +55,5 @@ body {
     outline: none;
 }
 
-.first-step,
-.second-step {
-    display: none;
-}
+
 
